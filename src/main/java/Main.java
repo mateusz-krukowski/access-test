@@ -1,7 +1,7 @@
 import java.sql.*;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Java from motherfucking Microsoft Access B|");
+        System.out.println("Hello Java from Microsoft Access database");
         try{
             String url = "jdbc:ucanaccess://Z:/Thorlakur/_studia/AHE-2021-2025/semestr3/Systemy_baz_danych/lab/zjazd4.accdb";
             Connection connection = DriverManager.getConnection(url);
